@@ -1,13 +1,14 @@
 # 📊 Amazon Sales ETL & Analytics App  
 
 This is an **ETL (Extract – Transform – Load) and Analytics project** built with **Streamlit**.  
-The app works on Amazon product data to generate insights and recommendations for business decisions.  
+The app uses **Pandas** for data cleaning & ETL and **Matplotlib** for creating visualizations.  
+It works on Amazon product data to generate insights and recommendations for business decisions.  
 
 ---
 
 ## 🚀 Project Workflow  
 
-- **ETL**  
+- **ETL (with Pandas)**  
   - Extract raw data.  
   - Transform (Clean & Prepare):  
     - Remove unwanted symbols (₹, %, ,).  
@@ -18,7 +19,7 @@ The app works on Amazon product data to generate insights and recommendations fo
     - Remove duplicates.  
   - Load the cleaned dataset for analytics.  
 
-- **Analytics (Streamlit App)**  
+- **Analytics (Streamlit + Matplotlib)**  
   - **Data Overview**: summary of the dataset after cleaning.  
   - **Data Analytics**: KPIs and charts, including:  
     - Top Categories by Products Count  
@@ -30,5 +31,4 @@ The app works on Amazon product data to generate insights and recommendations fo
   - **Insights & Recommendations**: highlights from the analysis and suggested actions.  
 
 ---
-
 
